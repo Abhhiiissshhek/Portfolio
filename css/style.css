@@ -1,0 +1,22 @@
+/* Day 01: simple, readable foundation styles. */
+:root { --ink: #172033; --surface: #ffffff; --page: #f4f7fb; --accent: #2563eb; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: var(--ink); background: var(--page); }
+a { color: var(--accent); }
+.site-header { background: var(--surface); border-bottom: 1px solid #dbe3ef; }
+.navbar, main, footer { max-width: 960px; margin: 0 auto; padding: 1rem 1.25rem; }
+.navbar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.logo { color: var(--ink); font-weight: 700; text-decoration: none; }
+.nav-links, .tag-list, .contact-list { display: flex; flex-wrap: wrap; gap: 0.75rem; padding: 0; list-style: none; }
+.nav-links a { text-decoration: none; }
+section { padding: 2.5rem 0; border-bottom: 1px solid #dbe3ef; }
+h1, h2, h3 { line-height: 1.2; }
+.hero { padding: 4rem 0; }
+.eyebrow { color: var(--accent); font-weight: 700; }
+.button { display: inline-block; padding: 0.65rem 1rem; color: white; background: var(--accent); border-radius: 0.35rem; text-decoration: none; }
+.tag-list li, .card { background: var(--surface); border: 1px solid #dbe3ef; border-radius: 0.5rem; }
+.tag-list li { padding: 0.4rem 0.7rem; }
+.card { padding: 1rem; margin: 1rem 0; }
+footer { text-align: center; }
+@media (max-width: 600px) { .navbar { align-items: flex-start; flex-direction: column; } }

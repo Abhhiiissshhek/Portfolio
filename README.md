@@ -1,20 +1,20 @@
-# Portfolio Website
+# Personal Portfolio
 
-This is my first personal portfolio website built using HTML and CSS.
+Day 01 foundation for Abhishek's aspiring machine learning engineer portfolio.
 
-## Live Demo
-🔗 https://abhhiiissshhek.github.io/portfolio/
+## Project structure
 
-## Features
-- About Me section
-- Skills
-- Projects
-- Contact section
-- Clean and responsive design
+```
+portfolio/
+├── index.html
+├── css/style.css
+├── js/script.js
+├── assets/images/
+└── assets/resume/
+```
 
-## Technologies Used
-- HTML
-- CSS
+The page uses semantic HTML, minimal CSS, and a JavaScript file kept ready for future small interactions. No frameworks or libraries are required.
 
-## Author
-Abhhiiissshhek
+## Run locally
+
+Open `index.html` in a browser, or use VS Code's Live Server extension.
