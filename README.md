@@ -1,20 +1,22 @@
-# Personal Portfolio
+# Abhishek's ML Engineer Portfolio
 
-Day 01 foundation for Abhishek's aspiring machine learning engineer portfolio.
+A personal portfolio for showcasing machine learning projects, engineering experience, and open-source work.
 
-## Project structure
+## Stack
 
-```
-portfolio/
-├── index.html
-├── css/style.css
-├── js/script.js
-├── assets/images/
-└── assets/resume/
-```
-
-The page uses semantic HTML, minimal CSS, and a JavaScript file kept ready for future small interactions. No frameworks or libraries are required.
+- React
+- Vite
+- Tailwind CSS
 
 ## Run locally
 
-Open `index.html` in a browser, or use VS Code's Live Server extension.
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
